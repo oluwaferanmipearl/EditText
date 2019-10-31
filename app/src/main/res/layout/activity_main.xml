@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent"
+    andriod:paddingLeft="16dp"
+    andriod:paddingRight="16dp"
+    >
+
+    <LinearLayout
+        andriod:layout_width="match_parent"
+        andriod:layout_height="match_parent"
+        andriod:orientation="vertical">
+
+        <TextView
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:text="Enter Your Name"
+            andriod:textColor="#000000"
+            andriod:textSize="20dp"
+            andriod:paddingTop="5dp"/>
+        <EditText
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:paddingBottom="16dp"
+            andriod:paddingTop="16dp"
+            andriod:hint="name"
+            andriod:inputType="textPersonName"
+            andriod:id="@+id/NameInput"/>
+
+        <TextView
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:text="Enter your Email Address"
+            andriod:textColor="#000000"
+            andriod:textSize="20dp" />
+
+        <EditText
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:paddingBottom="16dp"
+            andriod:paddingTop="16dp"
+            andriod:hint="type in a valid email"
+            andriod:inputType="textEmailAddress"
+            andriod:id="@+id/EmailInput"
+            />
+
+        <TextView
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:text="Enter Password"
+            andriod:textColor="#000000"
+            andriod:textSize="20dp" />
+
+        <EditText
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:paddingBottom="16dp"
+            andriod:paddingTop="16dp"
+            andriod:hint="password"
+            andriod:inputType="numberPassword"
+            andriod:id="@+id/PasswordInput"/>
+
+    </LinearLayout>
+
+    <Button
+        andriod:layout_width="match_parent"
+        andriod:layout_height="wrap_content"
+        andriod:layout_alignParentBottom="true"
+        andriod:text="submit"
+        andriod:textAllCaps="true"
+        andriod:paddingBottom="10dp"
+        andriod:id="@+id/button"
+        andriod:enabled="false"/>
+
+</RelativeLayout>
